@@ -1,0 +1,14 @@
+site_name: Tentackle
+site_url: https://tentackle.org/static-content/wiki
+nav:
+  - Introduction: index.md
+  - Concepts: concepts.md
+theme:
+  name: material
+  favicon: img/favicon.ico
+  logo: img/favicon.ico
+  palette:
+      primary: orange
+
+extra_css:
+  - stylesheets/extra.css
