@@ -8,5 +8,5 @@
 - unit- vs. integrations-tests
 - PDO architecture (best of both worlds: rich model with strictly separated implementations of domain- and persistence logic whithin the same inheritance hierarchy. No instanceof in service layer)
 - immutability as a key to correctness (PDOs selected outside the proper domain context are immutable by default)
-- virtually always attached PDOs -> true OOP, no restrictions, life cycles, LazyInitializationExceptions. Methods can be invoked at any time! (hello again, Smalltalk ;))
+- virtually always attached PDOs -> true OOP, no restrictions, life cycles, LazyInitializationExceptions. Methods can be invoked at any time, even at remote places w/o a direct database connection.
 - 
